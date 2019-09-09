@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:paddingHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Năm dương lịch:"/>
+        <EditText
+            android:id="@+id/edtDuongLich"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnChuyenDoi"
+        android:layout_marginHorizontal="10dp"
+        android:text="Chuyển đổi"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:paddingHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_weight="6"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Năm dương lịch:"/>
+        <TextView
+            android:id="@+id/txtAmLich"
+            android:background="@android:color/holo_blue_bright"
+            android:textColor="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            />
+    </LinearLayout>
+</LinearLayout>
